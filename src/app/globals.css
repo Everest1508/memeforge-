@@ -5,6 +5,20 @@
   --foreground: #171717;
 }
 
+@font-face {
+  font-family: "Tabi";
+  src: url("/fonts/tabi.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Goofy";
+  src: url("/fonts/CCSchoolsOutOpen.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -14,7 +28,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #d1d1d1;
+    --background: #900000;
     --foreground: #202020;
   }
 }
